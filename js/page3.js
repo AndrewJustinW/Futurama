@@ -2,7 +2,7 @@ var counter = 0;
 
 
 var plusDivs = (param) => {
-    var imageArray = ["../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.30.33 AM.png", "../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.30.53 AM.png", "../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.57.19 AM.png", "../Images/Character ScreenShots/Screen Shot 2019-03-11 at 9.31.26 AM.png", "../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.31.39 AM.png", "../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.31.51 AM.png", "../images/Character ScreenShots/Screen Shot 2019-03-11 at 9.32.05 AM.png"]
+    var imageArray = ["../images/Character ScreenShots/fry.png", "../images/Character ScreenShots/leela.png", "../images/Character ScreenShots/bender.png", "../images/Character ScreenShots/amy.png", "../images/Character ScreenShots/hermes.png", "../images/Character ScreenShots/professor.png", "../images/Character ScreenShots/zoidberg.png"]
     var size = imageArray.length - 1;
 
     counter = (counter + param);
