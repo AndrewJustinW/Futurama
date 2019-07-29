@@ -1,0 +1,310 @@
+/* Cover Page formatting */
+.coverPage {
+  background-image: url("../images/FuturamaCoverPage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+}
+/* formatting button and text that lead to main page */
+#coverEntry{
+  margin-left: 49%;
+  margin-top: 16%;
+  color: rgb(241, 213, 50);
+}
+
+
+
+
+/* Sidebard formatting and alterations */
+.sidenav h3{
+  color: white;
+  padding-left: 20px;
+}
+.sidenav {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  border:8px;   /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;   /* Stay on top */
+  top: 0;       /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #ececec;
+  display: block;
+}
+.sidenav a:hover {
+  color: rgb(54, 119, 184);
+}
+
+
+
+
+/* Homepage beginning */
+
+/* formatting homepage video */
+.homeVideo{
+  margin-top: 50px;
+  margin-left: 23%;
+  margin-bottom: 50px;
+  display: block;
+}
+/* homepage background and positioning */
+.homePage {
+  margin: 0px;
+  background-image: url("../images/futuramaHouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 900px
+}
+ /* logo positioning */
+.logomain {
+  margin-left: 49%;  /*  Same as the width of the sidebar */
+}
+/* formatting synopsis background */
+.synopsis_border {
+  border: solid 4px black;
+  background-color: rgb(54, 119, 184);
+  height: 388px;
+  width: 80%;
+  margin-left: 250px;
+  padding-bottom: 50px;
+  margin-top: 160px
+}
+/* formatting synopsis */
+.synopsis{
+  font-size: 23px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+/* Animating the synopsis to spin 360 degrees forward and back */
+.synopsisAnimation:hover {
+  animation: shaker 1.0s;
+}
+
+@keyframes shaker {
+  0%{
+    transform: rotate(0deg);
+}
+50%{
+  transform: rotate(360deg);      
+}
+100%{
+    transform: rotate(-360deg);      
+}
+
+}
+
+
+/* About Page Formatting */
+
+/* formatting top right image */
+.benderFace{
+  display:flex;
+  justify-content: flex-end;
+  position: right fixed;
+  margin-bottom: 0px;
+}
+/* formatting background and positioning */
+.aboutPage{
+  background-image: url("../images/aboutPageBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 190px;
+  margin-bottom: 400px;
+}
+/* formatting video positioning About page */
+#aboutVid{
+  margin-left: 16%;
+  margin-bottom: 90px;
+}
+/* formatting summary */
+#summary{
+  font-size: 21px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border: solid 4px black;
+  background-color: rgb(54, 119, 184);
+  height: 480px;
+  width: 98%;
+  margin-left: 10px;
+  margin-bottom:100px;
+  padding-right: 10px;
+  
+}
+/* positioning of details and deatails 2 */
+.info{
+  display: flex;
+  justify-content: space-around;
+}
+/* formatting details */
+#details{
+  font-size: 23px;
+  font-family: 'Courier New', Courier, monospace;
+  border: solid 4px black;
+  background-color: rgb(54, 119, 184);
+  height: 288px;
+  width: 40%;
+  padding-bottom: 200px;
+  margin-left: 10px;
+}
+/* shifting words over a bit to the right */
+#details p{
+
+  padding-left: 20px;
+}
+/* formatting details 2 */
+#details2{
+  font-size: 23px;
+  font-family: 'Courier New', Courier, monospace;
+  border: solid 4px black;
+  background-color: rgb(54, 119, 184);
+  width: 40%;
+  padding-bottom: 40px;
+  margin-left: 10px;
+}
+/* shifting words of details 2 */
+#details2 p{
+  padding-left: 20px;
+}
+
+
+
+
+
+/*  Character Page background Formatting and placement*/
+.charactersPage{
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 190px;
+  margin-bottom: 400px;
+
+}/* formatting headding background */
+.friendsheadding {
+  border: solid 3px black;
+  background-color: rgb(54, 119, 184);
+  height: 100px;
+  width: 100%;
+}
+/* formatting text  */
+.friends {
+  text-align: center;
+}
+/* Character Formats and positioning */
+.fry {
+
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leela {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between
+}
+
+.bender {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between
+}
+
+.farnsworth {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between
+}
+
+.amy {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.hermes {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.zoidberg {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+/* Formatting the different characters background */
+.crew {
+  Border: solid 3px black;
+  padding-right: 30px;
+  width: 725px;
+  background-color: rgb(54, 119, 184);
+  font-size: 19px;
+}
+
+
+
+
+/* Videos page start */
+
+/* videos page background formatting */
+.videosPage{
+
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 400px;
+
+  
+}
+/* videospage text and background formatting */
+#vpText{
+  font-size: 21px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border: solid 4px black;
+  background-color: rgb(54, 119, 184);
+  height: 80px;
+  width: 55%;
+  margin-left: 28%;
+  margin-bottom:100px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+
+
+}
+/* Formatting videos placement */
+#vids1{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 14%;
+
+}
+#vids2{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 14%;
+  margin-top: 7%;
+
+}
+#vids3{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 14%;
+  margin-top: 7%;
+
+
+}
